@@ -14,10 +14,10 @@ function darkMode() {
     botaoBorda.classList.toggle("button-light");
     botaoCirculo.classList.toggle("button-circle-light");
     document.body.classList.toggle("body-dark");
-    if (document.title != "Dark Mode") {
-        document.title = "Dark Mode";
+    if (document.title != "It's just a button") {
+        document.title = "It's just a button";
     } else{
-        document.title = "Light Mode";
+        document.title = "I told you";
     }
 
     var audio = new Audio("Space Ambient [Loop].m4a"); 
